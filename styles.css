@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+  width: 100%;
+  height: 650px;
+  margin-bottom: 80px;
+}
+
+.container{
+  margin-right: auto;
+  margin-left: auto;
+  width: 1155px;
+}
+
+.article-name1{
+  font-weight: 400;
+  font-size: 37px;
+  margin-bottom: 20px;
+}
+
+.article-name2{
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.article-content,
+.float-content,
+.image-content{
+  line-height: 27px;
+}
+
+iframe{
+  margin: 0px 20px 40px 10px;
+  float: left;
+}
+
+.float-content{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: block;
+  clear: both;
+}
+
+hr{
+  border-top: 1px solid rgb(232, 223, 223) ;
+  clear: both;
+}
+
+.links{
+  color: black;
+}
+
+.familylaw1,
+.familylaw2 {
+  width: 550px;
+  height: auto;
+  display: inline-block;
+}
+
+.familylaw1{
+  float: right;
+  margin-left: 25px;
+}
+
+.familylaw2{
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 10px;
+}
+
+.image-content{
+  margin: 10px 20px 10px 10px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+
